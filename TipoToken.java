@@ -15,7 +15,6 @@ public enum TipoToken {
     // Crear un tipoToken por cada "Signo del lenguaje" (ver clase Scanner)
     PARENTESISABRE, PARENTESISCIERRA, //PARENTESIS ()
     LLAVEABRE, LLAVECIERRA,     //LLAVES {}
-    CORCHETEABRE,CORCHETECIERRA,    //CORCHETES []
     COMA,   //COMA ,
     PUNTO,  //PUNTOS .
     PUNTOYCOMA, //PUNTO Y COMA ;
