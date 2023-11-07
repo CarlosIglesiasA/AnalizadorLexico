@@ -3,13 +3,7 @@ package scanner;
 public enum TipoToken {
     // Crear un tipoToken por palabra reservada
     // Palabras clave:
-    IF,ELSE,SWITCH,CASE,DEFAULT,WHILE,DO,FOR,BREAK,CONTINUE,RETURN,             //CONTROL DE FLUJO
-    CLASE,INTERFAZ,ENUM,EXTENDS,IMPLEMENTS,NEW,THIS,SUPER,STATIC,FINAL,ABSTRACT,//DECLARACION Y MODIFICACION DE VARIABLES
-    PUBLIC,PRIVATE,PROTECTED,                                                    //DE ACCESO Y PROTECCION
-    TRY,CATCH,FINALLY,THROW,THROWS,                                             //EXCEPCIONES
-    NULL,TRUE,FALSE,                                                            //MANEJO DE MEMORIA
-    PACKAGE,IMPORT,INSTANCEOF,                                                  //OBJETOS
-    INT,DOUBLE,FLOAT,LONG,SHORT,BYTE,BOOLEAN,CHAR,VOID,STRING,                  //VARIABLES
+    AND, ELSE, FALSE, FOR, FUN, IF, NULL, OR, PRINT, RETURN, TRUE, VAR, WHILE,
     
     // Crear un tipoToken: identificador, una cadena y numero
     IDENTIFICADOR, //PARA NOMBRES DE FUNCIONES
